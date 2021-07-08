@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error page</title>
+
+    <style>
+
+        body {
+            background-color: black;
+            color: white;
+            padding-top: 20%;
+        }
+        .container {
+            margin: auto;
+            max-width: 1140px;
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+         img {
+             margin: auto;
+         }
+
+        button {
+            border: 0;
+            outline: none;
+            border-radius: 50px;
+            padding: 15px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            background: #D63737;
+            color: #fff;
+            transition: all 0.5s ease;
+            -webkit-appearance: none;
+        }
+        button:hover, button:focus {
+            background: #C42828;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<main>
+    <div class="container">
+
+        <div>
+            <img src="http://domashniy-uyut-kstovo.ru/wp-content/uploads/2021/06/error.gif" alt="error" width="500">
+<!--            <img src="error.gif" alt="error" width="500">-->
+        </div>
+
+        <div class="">
+
+            <?php errorStatus(); ?>
+
+            <p> How you got here is a mystery. But you can click the button below
+                to go back to the homepage.
+            </p>
+            <a href="../home_page/index.html">
+                <button class="button-block"> HOME </button>
+            </a>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>

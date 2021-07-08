@@ -8,12 +8,12 @@ To clone and compile code:
 3. make
 
 To launch server with a website:
-1. ./webserv
+1.  ./webserv
 2. open a web browser and go to 127.0.0.1:8080
 
 To launch server for testing:
-1. ./webserv ./config/tests.conf
-2. ./tester http://127.0.0.1:8080
+1.  ./webserv ./config/tests.conf
+2. in a new tab of terminal: ./tester http://127.0.0.1:8080
 
 
 Contributors (you can see all commits on original page of the project: https://github.com/gbroccol/HTTP_server)
